@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #282843 none;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #282843;
+  border-radius: 20px;
+  border: 3px solid none;
+  margin-right: 10px
+}
